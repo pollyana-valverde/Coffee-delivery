@@ -1,4 +1,4 @@
-# Café Aroma - Site React
+# Café delivery - Site React
 
 Este é um site React puro para a cafeteria Café Aroma, com páginas para Home, Sobre Nós, Produtos e Contato. O projeto conta a história de uma família apaixonada por café, desde suas origens até os produtos oferecidos.
 
