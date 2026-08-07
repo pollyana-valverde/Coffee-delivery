@@ -6,13 +6,6 @@ import { HomeContainer, Intro, Title, Items, CoffeeList } from './styles';
 import introImg from '../../assets/intro-img.svg';
 
 export function Home() {
-  const [coffees, setCoffees] = useState([]);
-
-  useEffect(() => {
-    api.get('/coffees').then(response => {
-      setCoffees(response.data);
-    });
-  }, []);
 
   return (
     <HomeContainer>
