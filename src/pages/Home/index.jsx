@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react';
-import { api } from '../../services/api';
+import { coffees } from '../../data/coffees';   // ← nova linha
 import { CoffeeCard } from './components/CoffeeCard';
 import { HomeContainer, Intro, Title, Items, CoffeeList } from './styles';
 import introImg from '../../assets/intro-img.svg';
